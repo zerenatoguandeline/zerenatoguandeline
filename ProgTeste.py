@@ -16,7 +16,7 @@ st.write(f"Exibindo dados simulados para: **{indicador}**")
 # Gerando dados aleatórios para o gráfico
 data = pd.DataFrame(
     np.random.randn(20, 3),
-    columns=['Setor A', 'Setor B', 'Setor C']
+    columns=['Agro', 'Varejo', 'Transporte']
 )
 
 # Criando o gráfico interativo
